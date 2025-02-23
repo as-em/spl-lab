@@ -4,17 +4,14 @@
 
 int main(){
 
-    int n;
+    int a,b,c;
+    printf("two num :");
+    scanf("%d%d",&a,&b);
 
-    printf("num:");
-    scanf("%d",&n);
+    c=a;
+    a=b;
+    b=c;
 
-    if(n%2==0){
-        printf("even");
-    }
-    else{
-        printf("odd");
-    }
-
+    printf("a=%d \n b=%d",a,b);
     return 0;
 }
