@@ -1,3 +1,6 @@
+/*  Write a C program to find the sum of the following series 
+          S = 1 + 1/2*2 + 1/3*3 + … … + 1/n*n   */
+
 #include <stdio.h>
 #include <math.h>
 
