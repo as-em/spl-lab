@@ -2,7 +2,7 @@
           S = 1 + 1/2^2 + 1/3^3 + … … + 1/n^n   */
 
 #include <stdio.h>
-#include <math.c>
+#include <math.h>
 
 
 int main (){
