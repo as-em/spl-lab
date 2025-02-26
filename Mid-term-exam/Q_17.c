@@ -18,7 +18,7 @@ int main (){
    printf("%d %d ", x, y);
  
    
-   for( i = 2 ; i <= n;i++){
+   for( i = 3 ; i <= n;i++){
        
        s =   x + y ;
        x =  y;
