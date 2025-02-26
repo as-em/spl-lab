@@ -1,4 +1,10 @@
-// 14. Write a C program to print the digits of a number.  
+// 14. Write a C program to print the digits of a number. 
+
+
+// input = 486
+// output = 6
+//          8
+//          4
 
 // #include <stdio.h>
 
@@ -16,7 +22,7 @@
    
 //         r = n%10;
 //         n = n/10;
-//         printf("%d ", r);
+//         printf("%d \n", r);
 
 //     }
 
@@ -25,6 +31,11 @@
 // }
 
 
+
+// input = 486
+// output = 4
+//          8
+//          6
 
 #include <stdio.h>
 
