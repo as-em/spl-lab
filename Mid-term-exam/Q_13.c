@@ -2,6 +2,7 @@
           S = 1 + 1/2*2 + 1/3*3 + … … + 1/n*n   */
 
 #include <stdio.h>
+#include <math.c>
 
 
 int main (){
@@ -15,8 +16,8 @@ int main (){
 
     for(i = 1; i <= n;i += 1){
 
-        // sum = sum + (1/i*i);
-        sum = sum + (1/(i*i));
+        // sum = sum + (1/i*i); i will be float here
+        sum = sum + (1/pow(i,2));
 
     }
     printf("sum = %f ",sum );
