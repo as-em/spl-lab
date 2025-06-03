@@ -2,14 +2,13 @@
 #include <math.h>
 
 int main(){
-    int a, b, c;
+    int a=1, b, c;
     float x1, x2, d;
 
-read:
+    while(a!=0){
     printf("Enter value of a: ");
     scanf("%d", &a);
-    if (a == 0)
-        goto read;
+    }
 
     printf("Enter value of b and c: ");
     scanf("%d%d", &b, &c);
