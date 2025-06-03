@@ -2,10 +2,10 @@
 #include <math.h>
 
 int main(){
-    int a=1, b, c;
+    int a=0, b, c;
     float x1, x2, d;
 
-    while(a!=0){
+    while(a==0){
     printf("Enter value of a: ");
     scanf("%d", &a);
     }
