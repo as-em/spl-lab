@@ -1,33 +1,28 @@
-#include<stdio.h>
-#include<string.h>
 
 
-int main(){
+#include <stdio.h>
+#include <string.h>
 
-   char a[20];
+int main() {
+    char str[100];
+    int len,  isPalindrome = 1;
 
-   scanf("%s",a);
+    printf("Enter a string: ");
+    scanf("%s", str);  // Reads a word (no spaces)
 
-   int n = strlen(a);
-   int i = 0 ; int j = n-1;
-   int f =1 ;
+    len = strlen(str);
 
-   for(i = 0;i<n/2;i++){
-    if(a[i] != a[j]){
-        f = 0;
-        break;
+    for(int i = 0; i < len / 2; i++) {
+        if(str[i] != str[len - i - 1]) {
+            isPalindrome = 0;
+            break;
+        }
     }
-    j--;
-   }
 
-   if(f == 1){
-
-    printf("palindrome");
-   }
-   else{
+    if(isPalindrome)
+        printf("palindrome");
+    else
         printf("not palindrome");
-   }
 
-return 0;
-
+    return 0;
 }
