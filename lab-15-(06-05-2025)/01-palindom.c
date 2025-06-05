@@ -8,7 +8,7 @@ int main() {
     int len,  isPalindrome = 1;
 
     printf("Enter a string: ");
-    scanf("%s", str);  // Reads a word (no spaces)
+    scanf("%s", str);  
 
     len = strlen(str);
 
