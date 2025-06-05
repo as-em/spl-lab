@@ -15,7 +15,7 @@ for( i=0; i<10; i++){
         return 0;
     }
 
-    }
+}
     printf("not found");
     return 0;
 }
