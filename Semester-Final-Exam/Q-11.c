@@ -16,7 +16,7 @@ int main(){
   for(i=0; i<n; i++){
     sum += arr[i];
   }
-  printf("\nSum of all elements is : ", sum);
+  printf("\nSum of all elements is : %d", sum);
 
 return 0;
 }
