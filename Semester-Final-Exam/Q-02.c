@@ -19,13 +19,13 @@ printf("min= %d",min);
 
 //find max
 if(a >b && a>c ){
-    min = a;
+    max = a;
 }
 else if(b>a && b>c){
-    min = b;
+    max = b;
 }
 else{
-    min = c;
+    max = c;
 }
 printf("max= %d",max);
 return 0;
